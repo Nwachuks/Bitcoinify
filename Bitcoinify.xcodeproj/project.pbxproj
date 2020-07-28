@@ -15,6 +15,9 @@
 		2615173224D07D9D003D2E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2615173024D07D9D003D2E17 /* LaunchScreen.storyboard */; };
 		2615173D24D07D9D003D2E17 /* BitcoinifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615173C24D07D9D003D2E17 /* BitcoinifyTests.swift */; };
 		2615174824D07D9D003D2E17 /* BitcoinifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615174724D07D9D003D2E17 /* BitcoinifyUITests.swift */; };
+		84068163B967E2020EDAB067 /* Pods_Bitcoinify_BitcoinifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB2374BD45550EF41B3DAB5 /* Pods_Bitcoinify_BitcoinifyUITests.framework */; };
+		BA30054352FAB211A30AE788 /* Pods_Bitcoinify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C63F9CB5FA3179B86FD4B2 /* Pods_Bitcoinify.framework */; };
+		D7E0973B955635C63B5239F2 /* Pods_BitcoinifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8513828950DCCE0D7DBDBE7 /* Pods_BitcoinifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB2374BD45550EF41B3DAB5 /* Pods_Bitcoinify_BitcoinifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoinify_BitcoinifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2615172224D07D9C003D2E17 /* Bitcoinify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcoinify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2615172524D07D9C003D2E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2615172724D07D9C003D2E17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		2615174324D07D9D003D2E17 /* BitcoinifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2615174724D07D9D003D2E17 /* BitcoinifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinifyUITests.swift; sourceTree = "<group>"; };
 		2615174924D07D9D003D2E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BD03DB4CA2B4C72B78F50D /* Pods-Bitcoinify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoinify.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoinify/Pods-Bitcoinify.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C63F9CB5FA3179B86FD4B2 /* Pods_Bitcoinify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoinify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D0622310DF9A286CA5D5DB /* Pods-BitcoinifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinifyTests.release.xcconfig"; path = "Target Support Files/Pods-BitcoinifyTests/Pods-BitcoinifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D12495BC4565FEFC995845C9 /* Pods-Bitcoinify-BitcoinifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoinify-BitcoinifyUITests.release.xcconfig"; path = "Target Support Files/Pods-Bitcoinify-BitcoinifyUITests/Pods-Bitcoinify-BitcoinifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7DCE03F6D83D0D660D39E09 /* Pods-Bitcoinify-BitcoinifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoinify-BitcoinifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoinify-BitcoinifyUITests/Pods-Bitcoinify-BitcoinifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8513828950DCCE0D7DBDBE7 /* Pods_BitcoinifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA081FB7DB7FE875D0C735E9 /* Pods-BitcoinifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinifyTests.debug.xcconfig"; path = "Target Support Files/Pods-BitcoinifyTests/Pods-BitcoinifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F59E8474E135BFB03473896A /* Pods-Bitcoinify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoinify.release.xcconfig"; path = "Target Support Files/Pods-Bitcoinify/Pods-Bitcoinify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA30054352FAB211A30AE788 /* Pods_Bitcoinify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E0973B955635C63B5239F2 /* Pods_BitcoinifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84068163B967E2020EDAB067 /* Pods_Bitcoinify_BitcoinifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2615173B24D07D9D003D2E17 /* BitcoinifyTests */,
 				2615174624D07D9D003D2E17 /* BitcoinifyUITests */,
 				2615172324D07D9C003D2E17 /* Products */,
+				58AB43C2150D33E30103B542 /* Pods */,
+				EC88B416E67D5123BA286E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = BitcoinifyUITests;
 			sourceTree = "<group>";
 		};
+		58AB43C2150D33E30103B542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99BD03DB4CA2B4C72B78F50D /* Pods-Bitcoinify.debug.xcconfig */,
+				F59E8474E135BFB03473896A /* Pods-Bitcoinify.release.xcconfig */,
+				D7DCE03F6D83D0D660D39E09 /* Pods-Bitcoinify-BitcoinifyUITests.debug.xcconfig */,
+				D12495BC4565FEFC995845C9 /* Pods-Bitcoinify-BitcoinifyUITests.release.xcconfig */,
+				EA081FB7DB7FE875D0C735E9 /* Pods-BitcoinifyTests.debug.xcconfig */,
+				C9D0622310DF9A286CA5D5DB /* Pods-BitcoinifyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC88B416E67D5123BA286E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7C63F9CB5FA3179B86FD4B2 /* Pods_Bitcoinify.framework */,
+				1AB2374BD45550EF41B3DAB5 /* Pods_Bitcoinify_BitcoinifyUITests.framework */,
+				E8513828950DCCE0D7DBDBE7 /* Pods_BitcoinifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2615174C24D07D9D003D2E17 /* Build configuration list for PBXNativeTarget "Bitcoinify" */;
 			buildPhases = (
+				DBB1DD80B95D049E34989B47 /* [CP] Check Pods Manifest.lock */,
 				2615171E24D07D9C003D2E17 /* Sources */,
 				2615171F24D07D9C003D2E17 /* Frameworks */,
 				2615172024D07D9C003D2E17 /* Resources */,
+				4A5F51B45407425A0AE37175 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2615174F24D07D9D003D2E17 /* Build configuration list for PBXNativeTarget "BitcoinifyTests" */;
 			buildPhases = (
+				D4BE5B871B63B061C5EE83AE /* [CP] Check Pods Manifest.lock */,
 				2615173424D07D9D003D2E17 /* Sources */,
 				2615173524D07D9D003D2E17 /* Frameworks */,
 				2615173624D07D9D003D2E17 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2615175224D07D9D003D2E17 /* Build configuration list for PBXNativeTarget "BitcoinifyUITests" */;
 			buildPhases = (
+				1CC79DBA624B23F0640CBB5F /* [CP] Check Pods Manifest.lock */,
 				2615173F24D07D9D003D2E17 /* Sources */,
 				2615174024D07D9D003D2E17 /* Frameworks */,
 				2615174124D07D9D003D2E17 /* Resources */,
+				E429C26F39C4061683766F1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC79DBA624B23F0640CBB5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitcoinify-BitcoinifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5F51B45407425A0AE37175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify/Pods-Bitcoinify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify/Pods-Bitcoinify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify/Pods-Bitcoinify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BE5B871B63B061C5EE83AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB1DD80B95D049E34989B47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitcoinify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E429C26F39C4061683766F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify-BitcoinifyUITests/Pods-Bitcoinify-BitcoinifyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify-BitcoinifyUITests/Pods-Bitcoinify-BitcoinifyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoinify-BitcoinifyUITests/Pods-Bitcoinify-BitcoinifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2615171E24D07D9C003D2E17 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		2615174D24D07D9D003D2E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BD03DB4CA2B4C72B78F50D /* Pods-Bitcoinify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		2615174E24D07D9D003D2E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59E8474E135BFB03473896A /* Pods-Bitcoinify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		2615175024D07D9D003D2E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA081FB7DB7FE875D0C735E9 /* Pods-BitcoinifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		2615175124D07D9D003D2E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D0622310DF9A286CA5D5DB /* Pods-BitcoinifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		2615175324D07D9D003D2E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DCE03F6D83D0D660D39E09 /* Pods-Bitcoinify-BitcoinifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		2615175424D07D9D003D2E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12495BC4565FEFC995845C9 /* Pods-Bitcoinify-BitcoinifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

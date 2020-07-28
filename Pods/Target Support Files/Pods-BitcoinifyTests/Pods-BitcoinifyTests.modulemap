@@ -1,0 +1,6 @@
+framework module Pods_BitcoinifyTests {
+  umbrella header "Pods-BitcoinifyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
